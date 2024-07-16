@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Job Track</string>
+    <string name="sort">sort</string>
+    <string name="menu_item1_description">more_toolbar</string>
+    <string name="search">search</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

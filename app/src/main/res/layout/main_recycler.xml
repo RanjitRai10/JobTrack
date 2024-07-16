@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+    <!-- Company Name -->
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/rec_table"
+        android:fontFamily="@font/baloo_bhaina_2"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Google"
+        android:textAlignment="center"
+        android:textSize="18sp"
+         />
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:fontFamily="@font/baloo_bhaina_2"
+        android:background="@drawable/rec_table"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Applied"
+        android:textSize="18sp"
+
+         />
+
+    <!-- Deadline -->
+    <TextView
+        android:id="@+id/deadline"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="8dp"
+        android:fontFamily="@font/baloo_bhaina_2"
+        android:text="22/4/2024"
+        android:textSize="18sp"
+        android:background="@drawable/rec_table" />
+</LinearLayout>

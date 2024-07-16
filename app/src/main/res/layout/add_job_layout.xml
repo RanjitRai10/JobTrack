@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_company_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Company Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_job_status"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Job Status"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Deadline"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edit_job_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Job Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_job_link"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Job Link"
+        android:inputType="textUri" />
+    <Button
+        android:id="@+id/upload_resume_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Resume"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/selected_resume_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Resume: "
+        android:visibility="gone"/>
+</LinearLayout>
